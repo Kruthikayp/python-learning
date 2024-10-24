@@ -113,7 +113,7 @@ Formatted strings make it easy to include variables inside strings. You can use 
 **Example:**
 ```
 name = "kruthika"
-age = 30
+age = 24
 print(f"My name is {name}, and I am {age} years old.")
 ```
 ### Absolute Value Function 
@@ -125,6 +125,7 @@ num = -15
 print(abs(num))  # Output: 15
 ```
 ### Comments in Python 
+### Single-line comments
 Single-line comments are created using the # symbol. They are ignored by the Python interpreter and are used for documentation.
 
 **Example:**
@@ -143,4 +144,101 @@ It's useful for writing longer comments or documentation.
 """
 print("Code after multi-line comment")
 ```
+### String Manipulation 
+String manipulation refers to the process of modifying, processing, or working with strings in various ways. Strings in Python are immutable sequences of characters.
+
+**Example:**
+```
+greeting = "Hello, World!"
+print(greeting)
+```
+### Concatenation and Repetition 
+**Concatenation**: Joining two or more strings together using the + operator.
+
+**Example**:
+```
+first_name = "kruthika"
+last_name = "Prakash"
+full_name = first_name + " " + last_name
+print(full_name)  # Output: John Doe
+Repetition: Repeating a string multiple times using the * operator.
+```
+**Example:**
+```
+word = "Hello"
+repeated_word = word * 3
+print(repeated_word)  # Output: HelloHelloHello
+```
+### String Methods 
+String methods are built-in functions that allow you to perform operations on strings.
+
+### Common String Methods:
+
++ **lower(**): Converts the string to lowercase.
++ **upper():** Converts the string to uppercase.
++ **strip():** Removes leading and trailing spaces.
++ **replace()**: Replaces a substring with another.
++ **find()**: Finds the position of a substring.
+
+**Example**:
+```
+text = " Hello, Python! "
+print(text.lower())  # Output: " hello, python! "
+print(text.upper())  # Output: " HELLO, PYTHON! "
+print(text.strip())  # Output: "Hello, Python!"
+print(text.replace("Python", "World"))  # Output: " Hello, World! "
+```
+### Length of String 
+The len() function returns the number of characters in a string.
+
+**Example**:
+```
+sentence = "Python is awesome!"
+print(len(sentence))  # Output: 
+```
+### Accessing String Characters 
+You can access individual characters in a string using indexing. Python uses zero-based indexing, meaning the first character is at index 0.
+
+**Example:**
+```
+word = "Python"
+print(word[0])  # Output: P
+print(word[-1])  # Output: n (negative indexing accesses from the end)
+```
+### String Slicing
++ Slicing allows you to access a substring by specifying a range of indices.
+
+**Syntax:**
+```
+string[start:end]
+```
++ **start**: The starting index (inclusive).
++ **end:** The ending index (exclusive).
++ 
+   **Example:**
+```
+text = "Python Programming"
+print(text[0:6])  # Output: Python
+print(text[7:])  # Output: Programming
+print(text[:6])  # Output: Python
+print(text[-11:-1])  # Output: Programm
+```
+###  Escape Sequences
+Escape sequences allow you to include special characters in strings. They start with a backslash (\).
+
+### Common Escape Sequences:
+
++ **\n:** Newline
++ **\t**: Tab
++ **\\:** Backslash
++ **\':** Single quote
++ **\":** Double quote
+  
+**Example:**
+```
+print("Hello\nWorld")  # Output: Hello (newline) World
+print("This is a tab:\tTab")  # Output: This is a tab:    Tab
+print("He said, \"Python is fun!\"")  # Output: He said, "Python is fun!"
+```
+
 
