@@ -12,6 +12,7 @@ print("Hello, World!")
 ```
 ## What is python?
 Python is a high-level, interpreted programming language known for its simplicity and readability. It's widely used for web development, data analysis, artificial intelligence, scientific computing, and more.
+
 **Example**: A basic Python program that adds two numbers.
 ```# Adding two numbers
 a = 5
@@ -48,6 +49,7 @@ print(x)
 
  ## What is a Variable?
 A variable in Python is like a container that stores data values. You can think of it as a label attached to a value. The value can be changed at any time during the execution of the program.
+
 **Example**:
 ``` x = 10  # Here, 'x' is a variable that stores the value 10
 name = "John"  # 'name' stores the string "John"
@@ -57,6 +59,7 @@ name = "John"  # 'name' stores the string "John"
 + Variable names cannot start with a number.
 + Variable names are case-sensitive (age and Age are different).
 + Avoid using Python reserved keywords (e.g., if, else, while).
+  
 **Example**:
 ``` age = 25   # Valid variable name
  _age = 30  # Valid (starts with an underscore)
@@ -67,12 +70,15 @@ name = "John"  # 'name' stores the string "John"
 + float (Floating-Point): Used for decimal numbers.
 + str (String): Used for sequences of characters (text).
 + bool (Boolean): Used for True or False values.
++ none : It's often used to indicate that a variable has no value assigned to it.
+  
 **Example**:
 ```
 num = 10  # int
 pi = 3.14  # float
 name = "Rahul"  # string
 is_active = True  # bool
+x = None # None
 ```
 
 ## Type Conversion Techniques
@@ -82,6 +88,7 @@ Type conversion is the process of converting one data type to another, like conv
 + int(): Converts a value to an integer.
 + float(): Converts a value to a floating-point number.
 + str(): Converts a value to a string.
+  
 **Example**:
 ```
 x = 5  # int
