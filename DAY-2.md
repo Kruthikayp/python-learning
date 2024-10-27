@@ -34,7 +34,7 @@ values = [1, 2, 3]
 a, b, c = values
 print(a)  # Output: 1
 print(b)  # Output: 2
-print(c)  # Output: 
+print(c)  # Output: 3
 ```
  ### Swapping Values Between Two Variables
 Python allows you to easily swap the values of two variables without needing a temporary variable.
@@ -160,7 +160,7 @@ print(greeting)
 first_name = "kruthika"
 last_name = "Prakash"
 full_name = first_name + " " + last_name
-print(full_name)  # Output: John Doe
+print(full_name)  # Output: kruthika prakash
 Repetition: Repeating a string multiple times using the * operator.
 ```
 **Example:**
@@ -230,9 +230,9 @@ Escape sequences allow you to include special characters in strings. They start 
 
 + **\n:** Newline
 + **\t**: Tab
-+ **\\:** Backslash
-+ **\':** Single quote
-+ **\":** Double quote
++ **\\**: Backslash
++ **\'**: Single quote
++ **\"**:Double quote
   
 **Example:**
 ```
