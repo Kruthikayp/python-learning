@@ -96,9 +96,38 @@ matrix = [
     [4, 5, 6],
     [7, 8, 9]
 ]
-
 # Accessing elements in a nested list
 print(matrix[0][1])  # Output: 2 (first row, second column)
 print(matrix[2])     # Output: [7, 8, 9] (third row)
 ```
+**PRACTICE TIME**
+"Keep coding, keep exploring, and let Python be your path to innovation."
+
+**Task 1**: Create and Manipulate Lists
++ Create a list named cities containing at least 5 different city names (e.g., "Paris", "London", "New York").
++ Print the list of cities.
++ Use indexing to print the first and last city in the list.
++ Use slicing to print the first three cities.
+
+**Task 2:** Perform List Operations
++ Create two lists:
++ numbers = [10, 20, 30, 40, 50]
++ colors = ["red", "green", "blue"]
++ Concatenate the numbers and colors lists into a new list called combined_list and print it.
++ Repeat the colors list 3 times and print the result.
+
+**Task 3**: Use List Functions
++ Use the len() function to find the number of elements in the numbers list.
++ Use max() and min() to find the maximum and minimum values in the numbers list.
++ Calculate the sum of all numbers in the numbers list using the sum() function.
+
+**Task 4**: Apply List Methods
++ Create an empty list called shopping_list.
++ Add the following items to the list using the append() method: "milk", "eggs", "bread".
++ Insert "butter" at the beginning of the list using the insert() method.
++ Remove "eggs" from the list using the remove() method.
++ Sort the list in alphabetical order using the sort() method.
++ Reverse the list order using the reverse() method.
++ Print the final shopping_list.
+
 
