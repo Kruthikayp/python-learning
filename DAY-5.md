@@ -105,3 +105,37 @@ print(my_tuple)  # Output: (1, 2, 3, 3)
 my_set = {1, 2, 3, 3}
 print(my_set)  # Output: {1, 2, 3}
 ```
+## "Dont't just learn Python; create with it. Make your code tell a story."
+### 1. Tasks for Lists
+####  Create and Modify a List
++ Create a list of 5 fruits.
++ Replace the second fruit with "Mango".
++ Add a new fruit to the end of the list.
++ Remove the last fruit.
+
+### 2. Tasks for Tuples
+#### Tuple Operations
++ Create a tuple of 5 numbers.
++ Find the index of the number 3.
++ Count how many times the number 2 appears in the tuple.
++ Attempt to change an element (observe the error).
+
+### 3. Tasks for Sets
+####  Set Operations
++ Create two sets: set1 = {1, 2, 3, 4} and set2 = {3, 4, 5, 6}.
++ Perform the following operations:
++ Union
++ Intersection
++ Difference (set1 - set2 and set2 - set1)
+  
+### 4. Set Methods Practice
++ Create a set with numbers {1, 2, 3}.
++ Add a new number 4.
++ Try to discard a number 5 and observe the behavior.
++ Try to remove a number 5 and handle the error gracefully using a try-except block.
+  
+### 5. Comparison Tasks
+####  Convert Between Data Types
++ Create a list of numbers [1, 2, 2, 3].
++ Convert it into a set and observe what happens.
++ Convert the set back into a list.
