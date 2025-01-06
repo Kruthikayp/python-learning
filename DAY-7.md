@@ -83,3 +83,48 @@ if number >= 0:
 else:
     print("The number is negative.")
 ```
+
+##  "Programming isn't about what you know; it's about what you can figure out."
+### – Take each task as an opportunity to learn and discover!
+
+# TASKS :
+### 1. Check Eligibility to Work
+Write a program to check if a person is eligible to work. The age should be between 18 and 60.
+### Hint:
+Use an if-elif-else statement to check the age.
+Include conditions like age < 18, 18 <= age <= 60, and age > 60.
+
+### 2.  Identify Positive, Negative, or Zero
+Ask the user to input a number and identify whether it's positive, negative, or zero.
+### Hint:
+Use nested if-else statements.
+First, check if the number is >= 0. Then, check if it's zero.
+
+### 3. Calculate Ticket Price
+For a KSRTC bus:
+
+Free for children under 5.
+Regular fare for ages 5 to 60.
+Senior citizens get a discount.
+### Hint:
+Use if-elif-else statements.
+Take the age as input and apply conditions.
+
+### 4. Determine the Grade
+Input marks from the user and assign grades:
+
+A for marks >= 85
+B for marks 60–84
+C for marks < 60
+### Hint:
+Use elif for the range checks.
+
+### 5.  Check Driving Eligibility
+Check if a person can apply for a driving license:
+
+Age must be 18 or above.
+Must be a citizen (True or False).
+### Hint:
+
+Use logical operators (and) to combine conditions.
+
