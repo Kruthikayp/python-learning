@@ -1,4 +1,4 @@
-# Conditional Statements
+# Conditional Statements in Python
 Conditional statements in Python include if, else, and elif. These are used to check specific conditions and perform actions accordingly.
 
 ## 1. If Statement
